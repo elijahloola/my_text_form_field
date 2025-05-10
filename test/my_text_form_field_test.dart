@@ -1,0 +1,13 @@
+import 'package:flutter_test/flutter_test.dart';
+
+import 'package:my_text_form_field/my_text_form_field.dart';
+
+void main() {
+  test('adds one to input values', () {
+    MyTextFormField();
+    // final calculator = Calculator();
+    // expect(calculator.addOne(2), 3);
+    // expect(calculator.addOne(-7), -6);
+    // expect(calculator.addOne(0), 1);
+  });
+}

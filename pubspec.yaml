@@ -1,0 +1,20 @@
+name: my_text_form_field
+description: "Complete TextFormField Widget."
+version: 0.0.1
+homepage: "https://github.com/elijahloola/my_text_form_field.git"
+# repository: https://github.com/votre_nom_utilisateur/my_text_form_field
+
+environment:
+  sdk: ^3.7.2
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
