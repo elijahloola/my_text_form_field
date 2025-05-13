@@ -6,6 +6,7 @@ class MyTextFormField extends StatelessWidget {
   final void Function(String)? onChanged;
   // Ajout du champ validator
   final String? Function(String?)? validator;
+  final String? Function(String?)? onSubmetted;
 
   final TextEditingController? controller;
   final String? hintText;
@@ -28,6 +29,7 @@ class MyTextFormField extends StatelessWidget {
     super.key,
     this.onChanged,
     this.validator,
+    this.onSubmetted,
     this.controller,
     this.hintText,
     this.labelText,
@@ -64,6 +66,7 @@ class MyTextFormField extends StatelessWidget {
           focusNode: focusNode,
           onChanged: onChanged,
           validator: validator,
+          onFieldSubmitted: onSubmetted,
           textAlign: textAlign,
           controller: controller,
           keyboardType: keyboardType,

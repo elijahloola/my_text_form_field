@@ -1,11 +1,14 @@
-# my_text_form_field
+# MyTextFormField
 
-Un widget Flutter personnalisé `MyTextFormField` qui étend les fonctionnalités du widget `TextFormField` de Flutter.
+Un champ de texte Flutter personnalisé et réutilisable, encapsulé dans un widget simple.
 
-## Installation
+## 📦 Installation
 
-Ajoutez la dépendance suivante à votre fichier `pubspec.yaml` :
+Ajoutez ceci à votre `pubspec.yaml` :
 
 ```yaml
 dependencies:
-  my_text_form_field: ^0.0.1 # Remplacez par la dernière version
+  my_text_form_field:
+    git:
+      url: https://github.com/elijahloola/my_text_form_field.git
+      ref: master
